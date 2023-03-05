@@ -393,13 +393,15 @@ switch 문은 N가지를 처리하기 때문에 <u>**한가지를 처리하지 �
 연령과 주문수량은 모두 숫자이고, 0보다 커야 한다. 이걸 검증 코드로 작성하면 아래와 같다.
 
 ```java
-public void validateAge(String value):
+public void validateAge(String value) {
 	validateType(value, Integer.class)
 	validateMinInteger(value, 1)
+}
 
-public void validate_quantity(String value):
+public void validateQuantity(String value) {
 	validateType(value, Integer.class)
 	validateMinInteger(value, 1)
+}
 ```
 
 두 함수의 내용이 동일하다. 그럼 DRY 위반일까?
