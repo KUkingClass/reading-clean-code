@@ -91,6 +91,44 @@ switch 문은 N가지를 처리하기 때문에 <u>**한가지를 처리하지 �
 
 함수에 switch 문을 사용했을 때 큰 문제는 해당 함수와 구조가 동일한 함수가 무한정 존재할 수 있다는 것.
 
+- 동일한 구조의 반복
+    - 여러가지 일을 한다.
+    
+    ```java
+    public void play(Instrument i) throws InvalidInstrumentType {
+    	switch(i.type) {
+    		case BASS_GUITAR:
+    			playBassGuitar(i)
+    			return;
+    		case PIANO:
+    			playPiano(i)
+    			return;
+    		case DRUM:
+    			playDrum(i)
+    			return;
+    		default:
+    			throw new InvalidInstrumentType(i.type);
+    	}
+    }
+    
+    public void tune(Instrument i) throws InvalidInstrumentType {
+    	switch(i.type) {
+    		case BASS_GUITAR:
+    			tuneBassGuitar(i)
+    			return;
+    		case PIANO:
+    			tunePiano(i)
+    			return;
+    		case DRUM:
+    			tuneDrum(i)
+    			return;
+    		default:
+    			throw new InvalidInstrumentType(i.type);
+    	}
+    }
+    //...
+    ```
+
 - 책 예제 - 추상 팩토리? 추상 팩토리 패턴이라기 보다는 그냥 팩토리 메서드 패턴 같음
 
 <details><summary><code>switch문 객체 생성 예제</code></summary>
