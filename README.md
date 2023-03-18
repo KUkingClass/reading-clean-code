@@ -4,6 +4,8 @@
 <img src="https://user-images.githubusercontent.com/101321313/218290576-a964125e-4e7f-482c-87e5-c0b6e6cc970b.png" width="30%" height="30%"/>
 </a>
 
+[여기에서도 볼 수 있어요](https://kukingclass.gitbook.io/cleancode/)
+
 ## 스터디 방식
 
 정해진 진도까지 모두 읽어본 후 각자 맡은 부분을 정리해서 올리고 만나서 발표합니다.
