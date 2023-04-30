@@ -643,7 +643,7 @@ public class EnumExample {
     
     - 익셉션!
     
-    ![Untitled](%5BCleanCode%5D%2017%E1%84%8C%E1%85%A1%E1%86%BC%20-%20Smell%20&%20Heuristic%209369f46ca52f4fb5bbe7b5642d6e784d/Untitled%201.png)
+    ![Untitled](./assets/Untitled%201.png)
     
     - Serializable 인터페이스를 구현함으로써 해결
     
