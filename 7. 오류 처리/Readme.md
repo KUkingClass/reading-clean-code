@@ -7,7 +7,7 @@
 
 - 김모씨의 말을 빌리자면,,
 
-![Untitled](%5BCleanCode%5D%207%E1%84%8C%E1%85%A1%E1%86%BC%20-%20Error%20Handling%2001e34969670f4c00a5ef8ba9e2836ceb/Untitled.png)
+![Untitled](./assets/Untitled.png)
 
 ### Error & Exception in Runtime
 
@@ -44,7 +44,7 @@
 > *상황에 맞는 Exception Handle을 해야한다.*
 > 
 
-![Untitled](%5BCleanCode%5D%207%E1%84%8C%E1%85%A1%E1%86%BC%20-%20Error%20Handling%2001e34969670f4c00a5ef8ba9e2836ceb/Untitled%201.png)
+![Untitled](./assets/Untitled%201.png)
 
 ### Exception Class
 
@@ -422,7 +422,7 @@ public inline fun <R> runCatching(block: () -> R): Result<R> {
 
 # Unchecked Exception을 사용하기
 
-![Untitled](%5BCleanCode%5D%207%E1%84%8C%E1%85%A1%E1%86%BC%20-%20Error%20Handling%2001e34969670f4c00a5ef8ba9e2836ceb/Untitled%202.png)
+![Untitled](./assets/Untitled%202.png)
 
 - `CheckedException`
     - 단순 예외, 즉 컴파일 시 발생하는 Exception
